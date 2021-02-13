@@ -1,6 +1,6 @@
 def reverse_each_word(sentence)
-  sentence.each do |w|
-    w.reverse.join('')
+  reveresed = sentence.each do |str|
+    str.reverse
   end
-  sentence
+  reversed
 end
